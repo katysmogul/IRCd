@@ -1,0 +1,21 @@
+# Binario compilado
+delaustral-ircd
+
+# Base de datos
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# Certificados
+*.pem
+*.key
+*.crt
+
+# Config con credenciales (usar ircd.json.example)
+ircd.json
+
+# Go
+vendor/
