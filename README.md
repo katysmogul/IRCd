@@ -21,8 +21,8 @@ apt install gcc libsqlite3-dev
 ## Instalación
 
 ```bash
-git clone https://git.delaustral.com/Keiko/delaustral-ircd
-cd delaustral-ircd
+git clone https://git.delaustral.com/Keiko/IRCd
+cd IRCd
 go get github.com/mattn/go-sqlite3
 go build -o delaustral-ircd .
 ```
