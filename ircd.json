@@ -1,0 +1,34 @@
+{
+  "server_name": "irc.delaustral.com",
+  "network_name": "Del Austral",
+  "description": "IRC Del Austral",
+  "bind": "0.0.0.0",
+  "port": 6667,
+  "tls_port": 6697,
+  "tls_cert": "/etc/ssl/delaustral/cert.pem",
+  "tls_key":  "/etc/ssl/delaustral/key.pem",
+  "motd": [
+    "Bienvenido a IRC Del Austral.",
+    "Red privada. Respetar las normas."
+  ],
+  "max_clients": 1000,
+  "max_channels": 500,
+  "ping_interval": 90,
+  "ping_timeout": 120,
+  "flood_lines": 5,
+  "flood_burst": 10,
+  "db_path": "/var/lib/delaustral-ircd/ircd.db",
+  "opers": [
+    {
+      "name": "Keiko",
+      "password": "CAMBIA_ESTO",
+      "host_mask": "*@*",
+      "flags": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
+    }
+  ],
+  "cloak_key": "CLAVE_ALEATORIA_AQUI",
+  "log_file": "/var/log/delaustral-ircd/ircd.log",
+  "api_port": 7766,
+  "api_token": "CAMBIA_ESTE_TOKEN",
+  "webhook_url": ""
+}
